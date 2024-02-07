@@ -5,8 +5,8 @@ export default function handler(
     req: NextApiRequest,
     res: NextApiResponse<any>
 ) {
-    const filePath = path.resolve('./public/agreement_v2.docx'); // Adjust the path to your file
-    const fileName = 'agreement_v2.docx';
+    const filePath = path.resolve('./public/letter-charity-help.docx'); // Adjust the path to your file
+    const fileName = 'letter-charity.docx';
     try {
         // Check if the file exists
         if (!fs.existsSync(filePath)) {
